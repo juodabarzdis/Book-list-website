@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  max-width: 1500px;
+  margin: 0px 200px;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+
+.table-auto {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  width: 1400px;
+}
+
+.table-row {
+  cursor: pointer;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 2000ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}

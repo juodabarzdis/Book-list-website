@@ -1,0 +1,64 @@
+.book-container {
+  max-width: 250px;
+  max-height: 380px;
+  margin: 20px 20px 40px 20px;
+  cursor: default;
+}
+
+.book-info {
+  display: flex;
+}
+
+.book-text {
+  width: 80%;
+}
+
+.book-title {
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: left;
+  max-height: 40px;
+  overflow: hidden;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+
+.book-author {
+  font-size: 0.8rem;
+  text-align: left;
+  margin-left: 2px;
+}
+
+.book-price {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: auto;
+}
+.book-img-container {
+  position: relative;
+  width: 250px;
+  height: 370px;
+  overflow: hidden;
+}
+
+.book-description {
+  z-index: 2;
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  max-height: 70%;
+  font-size: 12px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.737);
+  color: #fff;
+  text-align: left;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.book-container:hover .book-description {
+  display: block;
+}
